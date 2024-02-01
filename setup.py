@@ -10,12 +10,12 @@ for package in install_requires:
         pname = package.split('/')[-1].split('.')[0]
         install_requires[install_requires.index(package)] = pname + ' @ ' + package
 setup(
-    name='timstof_targeted_3d_maldi_analysis',
-    version='1.3.0',
-    url='https://github.com/gtluubruker/timstof_targeted_3d_maldi_analysis',
+    name='timsMAP',
+    version='1.0.0',
+    url='https://github.com/rashepherd/timsMAP',
     license='Apache License',
-    author='Gordon T. Luu',
-    author_email='gordon.luu@bruker.com',
+    author='Robert A. Shepherd',
+    author_email='rashephe@ucsc.edu',
     packages=['bin'],
     entry_points={'console_scripts': ['get_feature_intensities=bin.run:run',
                                       'get_batch_feature_intensities=bin.run_batch:run',
