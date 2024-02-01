@@ -1,4 +1,4 @@
-# timstof_targeted_3d_maldi_analysis
+# timsMAP
 
 This Python script allows for users to extract the summed intensity for a given feature (where a feature is an m/z-1/K0 
 pair) from MALDI-TIMS-MS data acquired on the timsTOF fleX using timsControl in AutoXecute mode. It is intended for 
