@@ -21,22 +21,22 @@ environment used during development are below.
 
 3. Create a new conda virtual environment:
 ```
-conda create -n timstof_targeted_3d_maldi_analysis python=3.11
+conda create -n timsMAP python=3.11
 ```
 
 4. Activate the venv:
 ```
-conda activate timstof_targeted_3d_maldi_analysis
+conda activate timsMAP
 ```
 
 5. Install this package:
 ```
-pip install git+https://github.com/rashepherd/timstof_targeted_3d_maldi_analysis
+pip install git+https://github.com/rashepherd/timsMAP
 ```
 
 ## Usage
 
-The `run.py` script can be run in `Anaconda Prompt` when the `timstof_targeted_3d_maldi_analysis` venv created during 
+The `run.py` script can be run in `Anaconda Prompt` when the `timsMAP` venv created during 
 installation is activated.
 
 For help, use: `python run.py --help`. Parameters are also described below.
