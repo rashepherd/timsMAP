@@ -41,7 +41,7 @@ pip install git+https://github.com/rashepherd/timsMAP
 The `run.py` script can be run in `Anaconda Prompt` when the `timsMAP` venv created during 
 installation is activated.
 
-For help, use: `python run.py --help`. Parameters are also described below.
+For help, use: `get_feature_map --help`. Parameters are also described below.
 
 #### Parameters
 
